@@ -2,6 +2,7 @@
 """fork-radar · 抓取自己名下全部公开 fork，并记录上游与同步状态。
 
 输出 data/forks.json，给 scripts/build_readme.py 渲染 README 用。
+只读公开仓库，因此 Actions 里用默认的 GITHUB_TOKEN 就能跑，不需要额外配 PAT。
 
 凭据：环境变量 GITHUB_TOKEN / GH_TOKEN，或 --token-file 指定的文件（整份内容即 token）。
 只读权限即可，GitHub Actions 自动注入的 GITHUB_TOKEN 够用。
@@ -92,11 +93,13 @@ def read_token(token_file):
     raise SystemExit("缺少凭据：设置 GITHUB_TOKEN，或用 --token-file 指定文件")
 
 
-def list_repos(client):
+def list_repos(client, owner):
+    """只读公开仓库列表：Actions 里注入的 GITHUB_TOKEN 读得了，也永远不会把私有仓库漏进 README。"""
     repos = []
     page = 1
     while True:
-        batch = client.get(f"/user/repos?per_page=100&affiliation=owner&sort=pushed&page={page}")
+        path = f"/users/{owner}/repos?type=owner&per_page=100&sort=pushed&page={page}"
+        batch = client.get(path)
         if not isinstance(batch, list) or not batch:
             break
         repos.extend(batch)
@@ -151,15 +154,15 @@ def upstream_of(parent):
 def main(argv=None):
     parser = argparse.ArgumentParser(description="抓取公开 fork 及其上游同步状态")
     parser.add_argument("--token-file", help="token 文件路径（不给就读 GITHUB_TOKEN 环境变量）")
+    parser.add_argument("--owner", help="账号名，默认取 GITHUB_REPOSITORY_OWNER 或 token 持有者")
     parser.add_argument("--out", default=str(REPO_ROOT / "data" / "forks.json"), help="输出 JSON 路径")
     args = parser.parse_args(argv)
 
     client = Client(read_token(args.token_file))
-    me = client.get("/user")
-    owner = me.get("login")
+    owner = args.owner or os.environ.get("GITHUB_REPOSITORY_OWNER") or client.get("/user").get("login")
     print("[fork-radar] 账号 " + str(owner) + "，开始扫描……", file=sys.stderr)
 
-    repos = list_repos(client)
+    repos = list_repos(client, owner)
     forks = [item for item in repos if item.get("fork") and not item.get("private")]
     forks.sort(key=lambda item: item["full_name"].lower())
     print(

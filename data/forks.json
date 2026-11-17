@@ -1,9 +1,9 @@
 {
   "owner": "yehuoshun",
   "source": "https://github.com/yehuoshun",
-  "generated_at": "2026-11-17T05:58:42Z",
+  "generated_at": "2026-11-17T06:01:03Z",
   "api_calls": 15,
-  "total_repos": 68,
+  "total_repos": 66,
   "fork_count": 7,
   "forks": [
     {
@@ -85,7 +85,7 @@
         "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
         "description": "A collection of MCP servers.",
         "language": null,
-        "stars": 97784,
+        "stars": 97785,
         "archived": false,
         "default_branch": "main",
         "pushed_at": "2026-11-17T05:21:40Z"
