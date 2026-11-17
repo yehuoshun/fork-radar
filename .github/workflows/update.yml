@@ -1,0 +1,58 @@
+name: update
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # 每天 00:00 UTC = 08:00 (UTC+8)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "curation.json"
+      - "README.template.md"
+      - "scripts/**"
+      - ".github/workflows/update.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取 fork 数据
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/fetch_forks.py
+
+      - name: 渲染 README
+        run: python scripts/build_readme.py
+
+      - name: 校验渲染结果可复现
+        run: python scripts/build_readme.py --check
+
+      - name: 提交变化
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "没有变化，跳过提交"
+            exit 0
+          fi
+          git add -A
+          git commit -m "chore: 刷新 fork 快照与 README"
+          git push
+
+      - name: 失败提示
+        if: failure()
+        run: echo "::warning::抓取或渲染失败，README 保持上一次的快照"

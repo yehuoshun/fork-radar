@@ -1,0 +1,68 @@
+{
+  "groups": [
+    {
+      "id": "mcp-ai",
+      "title": "🧩 MCP / AI 工具链",
+      "desc": "把模型接到真实工具上的那一类，索引仓库居多。"
+    },
+    {
+      "id": "java",
+      "title": "☕ Java 生态",
+      "desc": "MyBatis 周边与中间件扩展。"
+    },
+    {
+      "id": "game",
+      "title": "🎮 游戏工具 / MOD / 资源",
+      "desc": "游戏增强、解包资源、自动签到这类小工具。"
+    },
+    {
+      "id": "other",
+      "title": "📦 待归类",
+      "desc": "还没想好放哪儿，或者刚 fork 还没来得及收拾。"
+    }
+  ],
+  "rules": [
+    {
+      "group": "mcp-ai",
+      "keywords": ["mcp", "awesome", "llm", "agent", "prompt", "cursor"]
+    },
+    {
+      "group": "java",
+      "keywords": ["java", "mybatis", "spring", "maven", "gradle", "mongodb"]
+    },
+    {
+      "group": "game",
+      "keywords": ["game", "mod", "unity", "genshin", "1999", "hoarder", "steam", "cheat"]
+    }
+  ],
+  "repos": {
+    "MongoPlus": {
+      "group": "java",
+      "note": "把 MyBatis-Plus 的写法搬到 MongoDB 上；fork 过来只为跟踪上游"
+    },
+    "mybatis-plus-join": {
+      "group": "java",
+      "note": "MyBatis-Plus 多表联查插件，完全照 MP 的用法写"
+    },
+    "awesome-mcp-servers": {
+      "group": "mcp-ai",
+      "note": "MCP 服务器总表（punkpeye），我这份是纯副本，看内容请回上游"
+    },
+    "awesome-china-mcp": {
+      "group": "mcp-ai",
+      "note": "国内 App 的 MCP 服务索引"
+    },
+    "rebirth-hoarder-mod": {
+      "group": "game",
+      "note": "《末世：我有一辆房车》3.5 单机增强：F8 修改面板 + 存档修改器；我在这儿留了本地提交"
+    },
+    "1999GameResource": {
+      "group": "game",
+      "note": "《重返未来1999》解包资源，2023 年的留档"
+    },
+    "genshin-helper": {
+      "group": "game",
+      "note": "原神米游社自动签到"
+    }
+  }
+}

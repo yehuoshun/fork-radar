@@ -1,0 +1,222 @@
+{
+  "owner": "yehuoshun",
+  "source": "https://github.com/yehuoshun",
+  "generated_at": "2026-11-17T05:58:42Z",
+  "api_calls": 15,
+  "total_repos": 68,
+  "fork_count": 7,
+  "forks": [
+    {
+      "name": "1999GameResource",
+      "full_name": "yehuoshun/1999GameResource",
+      "html_url": "https://github.com/yehuoshun/1999GameResource",
+      "description": "重返未来1999解包仓库",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "archived": true,
+      "default_branch": "main",
+      "created_at": "2023-07-09T00:43:49Z",
+      "pushed_at": "2023-07-07T15:32:25Z",
+      "upstream": {
+        "full_name": "HanaHye/Reverse1999Resource",
+        "html_url": "https://github.com/HanaHye/Reverse1999Resource",
+        "description": null,
+        "language": null,
+        "stars": 0,
+        "archived": false,
+        "default_branch": "main",
+        "pushed_at": "2023-08-23T00:23:27Z"
+      },
+      "sync": {
+        "state": "diverged",
+        "ahead_by": 1,
+        "behind_by": 1,
+        "total_commits": 1,
+        "base_branch": "main",
+        "head_branch": "main"
+      }
+    },
+    {
+      "name": "awesome-china-mcp",
+      "full_name": "yehuoshun/awesome-china-mcp",
+      "html_url": "https://github.com/yehuoshun/awesome-china-mcp",
+      "description": "Curated index of MCP servers for Chinese apps — connect your AI agent to 高德地图, 12306, 小红书, 飞书, 语雀, A股 and more. The open-source 'Composio for China'.",
+      "language": null,
+      "topics": [],
+      "stars": 1,
+      "archived": false,
+      "default_branch": "main",
+      "created_at": "2026-09-14T08:46:46Z",
+      "pushed_at": "2026-11-11T16:07:12Z",
+      "upstream": {
+        "full_name": "zackchewa/awesome-china-mcp",
+        "html_url": "https://github.com/zackchewa/awesome-china-mcp",
+        "description": "Curated index of MCP servers for Chinese apps — connect your AI agent to 高德地图, 12306, 小红书, 飞书, 语雀, A股 and more. The open-source 'Composio for China'.",
+        "language": null,
+        "stars": 174,
+        "archived": false,
+        "default_branch": "main",
+        "pushed_at": "2026-11-14T00:37:29Z"
+      },
+      "sync": {
+        "state": "behind",
+        "ahead_by": 0,
+        "behind_by": 3,
+        "total_commits": 0,
+        "base_branch": "main",
+        "head_branch": "main"
+      }
+    },
+    {
+      "name": "awesome-mcp-servers",
+      "full_name": "yehuoshun/awesome-mcp-servers",
+      "html_url": "https://github.com/yehuoshun/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "archived": false,
+      "default_branch": "main",
+      "created_at": "2026-09-14T08:46:44Z",
+      "pushed_at": "2026-11-11T16:09:43Z",
+      "upstream": {
+        "full_name": "punkpeye/awesome-mcp-servers",
+        "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
+        "description": "A collection of MCP servers.",
+        "language": null,
+        "stars": 97784,
+        "archived": false,
+        "default_branch": "main",
+        "pushed_at": "2026-11-17T05:21:40Z"
+      },
+      "sync": {
+        "state": "behind",
+        "ahead_by": 0,
+        "behind_by": 984,
+        "total_commits": 0,
+        "base_branch": "main",
+        "head_branch": "main"
+      }
+    },
+    {
+      "name": "genshin-helper",
+      "full_name": "yehuoshun/genshin-helper",
+      "html_url": "https://github.com/yehuoshun/genshin-helper",
+      "description": "原神米游社自动签到",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "archived": false,
+      "default_branch": "master",
+      "created_at": "2023-01-04T04:28:18Z",
+      "pushed_at": "2022-11-28T11:35:01Z",
+      "upstream": null,
+      "sync": {
+        "state": "blocked",
+        "ahead_by": null,
+        "behind_by": null,
+        "error": "GitHub 已屏蔽该仓库（Repository access blocked / ToS）"
+      }
+    },
+    {
+      "name": "MongoPlus",
+      "full_name": "yehuoshun/MongoPlus",
+      "html_url": "https://github.com/yehuoshun/MongoPlus",
+      "description": "🔥🔥🔥使用MyBatisPlus的方式，优雅的操作MongoDB",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "archived": false,
+      "default_branch": "master",
+      "created_at": "2026-11-12T06:12:27Z",
+      "pushed_at": "2026-11-12T12:25:38Z",
+      "upstream": {
+        "full_name": "anwenmp/MongoPlus",
+        "html_url": "https://github.com/anwenmp/MongoPlus",
+        "description": "🔥🔥🔥使用MyBatisPlus的方式，优雅的操作MongoDB",
+        "language": "Java",
+        "stars": 77,
+        "archived": false,
+        "default_branch": "master",
+        "pushed_at": "2026-11-12T12:10:36Z"
+      },
+      "sync": {
+        "state": "synced",
+        "ahead_by": 0,
+        "behind_by": 0,
+        "total_commits": 0,
+        "base_branch": "master",
+        "head_branch": "master"
+      }
+    },
+    {
+      "name": "mybatis-plus-join",
+      "full_name": "yehuoshun/mybatis-plus-join",
+      "html_url": "https://github.com/yehuoshun/mybatis-plus-join",
+      "description": "mybatis-plus-join 多表插件 完全按照mp的用法来做，你只要会mp，那你就会用mpj，无感引入，不会对之前的业务产生一点点影响，采用扩展方式来集成mp,更容易适配版本，后期mp版本升级，您不用更改东西，只需要更新版本就行，自定义返回Vo，自定义表别名，自定义查询字段，骚操作爽到爆，让你在喝有时间喝下午茶的时间，还能再吃点心（目前支持大部分主流版本 ）",
+      "language": "Java",
+      "topics": [],
+      "stars": 1,
+      "archived": false,
+      "default_branch": "main",
+      "created_at": "2026-11-07T12:21:41Z",
+      "pushed_at": "2026-11-07T13:01:28Z",
+      "upstream": {
+        "full_name": "bobo667/mybatis-plus-join",
+        "html_url": "https://github.com/bobo667/mybatis-plus-join",
+        "description": "mybatis-plus-join 多表插件 完全按照mp的用法来做，你只要会mp，那你就会用mpj，无感引入，不会对之前的业务产生一点点影响，采用扩展方式来集成mp,更容易适配版本，后期mp版本升级，您不用更改东西，只需要更新版本就行，自定义返回Vo，自定义表别名，自定义查询字段，骚操作爽到爆，让你在喝有时间喝下午茶的时间，还能再吃点心（目前支持大部分主流版本 ）",
+        "language": "Java",
+        "stars": 147,
+        "archived": false,
+        "default_branch": "main",
+        "pushed_at": "2025-10-29T11:41:45Z"
+      },
+      "sync": {
+        "state": "synced",
+        "ahead_by": 0,
+        "behind_by": 0,
+        "total_commits": 0,
+        "base_branch": "main",
+        "head_branch": "main"
+      }
+    },
+    {
+      "name": "rebirth-hoarder-mod",
+      "full_name": "yehuoshun/rebirth-hoarder-mod",
+      "html_url": "https://github.com/yehuoshun/rebirth-hoarder-mod",
+      "description": "《末世：我有一辆房车》(Rebirth Hoarder) 3.5 单机增强：F8 修改面板 + 存档修改器 + 源码",
+      "language": "C#",
+      "topics": [],
+      "stars": 1,
+      "archived": false,
+      "default_branch": "main",
+      "created_at": "2026-11-02T19:19:23Z",
+      "pushed_at": "2026-11-02T19:29:05Z",
+      "upstream": {
+        "full_name": "thus1235/rebirth-hoarder-mod",
+        "html_url": "https://github.com/thus1235/rebirth-hoarder-mod",
+        "description": "《末世：我有一辆房车》(Rebirth Hoarder) 3.5 单机增强：F8 修改面板 + 存档修改器 + 源码",
+        "language": "C#",
+        "stars": 5,
+        "archived": false,
+        "default_branch": "main",
+        "pushed_at": "2026-10-03T05:32:09Z"
+      },
+      "sync": {
+        "state": "ahead",
+        "ahead_by": 5,
+        "behind_by": 0,
+        "total_commits": 5,
+        "base_branch": "main",
+        "head_branch": "main"
+      }
+    }
+  ],
+  "errors": [
+    {
+      "repo": "yehuoshun/genshin-helper",
+      "error": "GitHub 已屏蔽该仓库（Repository access blocked / ToS）"
+    }
+  ]
+}
