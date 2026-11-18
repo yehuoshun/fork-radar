@@ -1,9 +1,9 @@
 {
   "owner": "yehuoshun",
   "source": "https://github.com/yehuoshun",
-  "generated_at": "2026-11-17T06:01:22Z",
+  "generated_at": "2026-11-18T06:00:13Z",
   "api_calls": 14,
-  "total_repos": 66,
+  "total_repos": 67,
   "fork_count": 7,
   "forks": [
     {
@@ -48,7 +48,7 @@
       "archived": false,
       "default_branch": "main",
       "created_at": "2026-09-14T08:46:46Z",
-      "pushed_at": "2026-11-11T16:07:12Z",
+      "pushed_at": "2026-11-18T01:21:53Z",
       "upstream": {
         "full_name": "zackchewa/awesome-china-mcp",
         "html_url": "https://github.com/zackchewa/awesome-china-mcp",
@@ -60,9 +60,9 @@
         "pushed_at": "2026-11-14T00:37:29Z"
       },
       "sync": {
-        "state": "behind",
+        "state": "synced",
         "ahead_by": 0,
-        "behind_by": 3,
+        "behind_by": 0,
         "total_commits": 0,
         "base_branch": "main",
         "head_branch": "main"
@@ -79,21 +79,21 @@
       "archived": false,
       "default_branch": "main",
       "created_at": "2026-09-14T08:46:44Z",
-      "pushed_at": "2026-11-11T16:09:43Z",
+      "pushed_at": "2026-11-18T01:22:26Z",
       "upstream": {
         "full_name": "punkpeye/awesome-mcp-servers",
         "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
         "description": "A collection of MCP servers.",
         "language": null,
-        "stars": 97785,
+        "stars": 97831,
         "archived": false,
         "default_branch": "main",
         "pushed_at": "2026-11-17T05:21:40Z"
       },
       "sync": {
-        "state": "behind",
+        "state": "synced",
         "ahead_by": 0,
-        "behind_by": 984,
+        "behind_by": 0,
         "total_commits": 0,
         "base_branch": "main",
         "head_branch": "main"
@@ -136,10 +136,10 @@
         "html_url": "https://github.com/anwenmp/MongoPlus",
         "description": "🔥🔥🔥使用MyBatisPlus的方式，优雅的操作MongoDB",
         "language": "Java",
-        "stars": 77,
+        "stars": 76,
         "archived": false,
         "default_branch": "master",
-        "pushed_at": "2026-11-12T12:10:36Z"
+        "pushed_at": "2026-11-17T11:52:30Z"
       },
       "sync": {
         "state": "synced",
