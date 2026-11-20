@@ -1,9 +1,9 @@
 {
   "owner": "yehuoshun",
   "source": "https://github.com/yehuoshun",
-  "generated_at": "2026-11-19T06:00:45Z",
+  "generated_at": "2026-11-20T05:50:14Z",
   "api_calls": 14,
-  "total_repos": 67,
+  "total_repos": 68,
   "fork_count": 7,
   "forks": [
     {
@@ -85,7 +85,7 @@
         "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
         "description": "A collection of MCP servers.",
         "language": null,
-        "stars": 98120,
+        "stars": 98278,
         "archived": false,
         "default_branch": "main",
         "pushed_at": "2026-11-17T05:21:40Z"
@@ -136,7 +136,7 @@
         "html_url": "https://github.com/anwenmp/MongoPlus",
         "description": "🔥🔥🔥使用MyBatisPlus的方式，优雅的操作MongoDB",
         "language": "Java",
-        "stars": 76,
+        "stars": 75,
         "archived": false,
         "default_branch": "master",
         "pushed_at": "2026-11-17T11:52:30Z"
