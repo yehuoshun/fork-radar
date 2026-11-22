@@ -11,7 +11,7 @@
 
 [![update](https://github.com/yehuoshun/fork-radar/actions/workflows/update.yml/badge.svg)](https://github.com/yehuoshun/fork-radar/actions/workflows/update.yml)
 
-数据快照：2026-11-21 13:45 (UTC+8)
+数据快照：2026-11-22 13:15 (UTC+8)
 
 </div>
 
@@ -48,7 +48,7 @@
 
 | 仓库 | 上游 | 语言 | 我的改动 | 状态 | 说明 |
 | --- | --- | --- | --- | --- | --- |
-| [awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers) | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ⭐98.3k | — | — | ✅ 同步 | MCP 服务器总表（punkpeye），我这份是纯副本，看内容请回上游 |
+| [awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers) | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ⭐98.4k | — | — | ✅ 同步 | MCP 服务器总表（punkpeye），我这份是纯副本，看内容请回上游 |
 | [awesome-china-mcp](https://github.com/yehuoshun/awesome-china-mcp) | [zackchewa/awesome-china-mcp](https://github.com/zackchewa/awesome-china-mcp) ⭐179 | — | — | ✅ 同步 | 国内 App 的 MCP 服务索引 |
 
 ### ☕ Java 生态
