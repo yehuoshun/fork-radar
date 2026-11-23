@@ -7,11 +7,11 @@
 我只翻 GitHub 第一页 —— 后面的仓库基本不看，fork 也跟着沉底。
 这张表把它们捞起来，标出哪些落后上游、哪些我动过手，每天自动刷新。
 
-**7** 个 fork · **2** 个我改过 · **0** 个落后上游 · **1** 个上游已失效
+**7** 个 fork · **2** 个我改过 · **1** 个落后上游 · **1** 个上游已失效
 
 [![update](https://github.com/yehuoshun/fork-radar/actions/workflows/update.yml/badge.svg)](https://github.com/yehuoshun/fork-radar/actions/workflows/update.yml)
 
-数据快照：2026-11-22 13:15 (UTC+8)
+数据快照：2026-11-23 13:54 (UTC+8)
 
 </div>
 
@@ -48,7 +48,7 @@
 
 | 仓库 | 上游 | 语言 | 我的改动 | 状态 | 说明 |
 | --- | --- | --- | --- | --- | --- |
-| [awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers) | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ⭐98.4k | — | — | ✅ 同步 | MCP 服务器总表（punkpeye），我这份是纯副本，看内容请回上游 |
+| [awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers) | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ⭐98.4k | — | — | ⬇️ 落后 7 | MCP 服务器总表（punkpeye），我这份是纯副本，看内容请回上游 |
 | [awesome-china-mcp](https://github.com/yehuoshun/awesome-china-mcp) | [zackchewa/awesome-china-mcp](https://github.com/zackchewa/awesome-china-mcp) ⭐179 | — | — | ✅ 同步 | 国内 App 的 MCP 服务索引 |
 
 ### ☕ Java 生态
@@ -71,6 +71,10 @@ MyBatis 周边与中间件扩展。
 | [genshin-helper](https://github.com/yehuoshun/genshin-helper) | — | — | — | 🚫 仓库已屏蔽 | 原神米游社自动签到 |
 
 ## 值得回头看
+
+### ⬇️ 该同步了（1）
+
+- **[awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers)** — 落后上游 7 个提交
 
 ### ✏️ 有本地改动（2）
 
