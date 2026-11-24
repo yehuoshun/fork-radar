@@ -1,7 +1,7 @@
 {
   "owner": "yehuoshun",
   "source": "https://github.com/yehuoshun",
-  "generated_at": "2026-11-23T05:54:39Z",
+  "generated_at": "2026-11-24T08:33:19Z",
   "api_calls": 14,
   "total_repos": 71,
   "fork_count": 7,
@@ -54,7 +54,7 @@
         "html_url": "https://github.com/zackchewa/awesome-china-mcp",
         "description": "Curated index of MCP servers for Chinese apps — connect your AI agent to 高德地图, 12306, 小红书, 飞书, 语雀, A股 and more. The open-source 'Composio for China'.",
         "language": null,
-        "stars": 179,
+        "stars": 181,
         "archived": false,
         "default_branch": "main",
         "pushed_at": "2026-11-14T00:37:29Z"
@@ -85,15 +85,15 @@
         "html_url": "https://github.com/punkpeye/awesome-mcp-servers",
         "description": "A collection of MCP servers.",
         "language": null,
-        "stars": 98403,
+        "stars": 98448,
         "archived": false,
         "default_branch": "main",
-        "pushed_at": "2026-11-23T01:44:48Z"
+        "pushed_at": "2026-11-24T05:52:04Z"
       },
       "sync": {
         "state": "behind",
         "ahead_by": 0,
-        "behind_by": 7,
+        "behind_by": 13,
         "total_commits": 0,
         "base_branch": "main",
         "head_branch": "main"
@@ -139,7 +139,7 @@
         "stars": 75,
         "archived": false,
         "default_branch": "master",
-        "pushed_at": "2026-11-22T16:06:10Z"
+        "pushed_at": "2026-11-23T16:19:38Z"
       },
       "sync": {
         "state": "synced",
