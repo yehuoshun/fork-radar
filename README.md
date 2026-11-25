@@ -7,11 +7,11 @@
 我只翻 GitHub 第一页 —— 后面的仓库基本不看，fork 也跟着沉底。
 这张表把它们捞起来，标出哪些落后上游、哪些我动过手，每天自动刷新。
 
-**7** 个 fork · **2** 个我改过 · **1** 个落后上游 · **1** 个上游已失效
+**7** 个 fork · **2** 个我改过 · **2** 个落后上游 · **1** 个上游已失效
 
 [![update](https://github.com/yehuoshun/fork-radar/actions/workflows/update.yml/badge.svg)](https://github.com/yehuoshun/fork-radar/actions/workflows/update.yml)
 
-数据快照：2026-11-24 16:33 (UTC+8)
+数据快照：2026-11-25 15:08 (UTC+8)
 
 </div>
 
@@ -48,7 +48,7 @@
 
 | 仓库 | 上游 | 语言 | 我的改动 | 状态 | 说明 |
 | --- | --- | --- | --- | --- | --- |
-| [awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers) | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ⭐98.4k | — | — | ⬇️ 落后 13 | MCP 服务器总表（punkpeye），我这份是纯副本，看内容请回上游 |
+| [awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers) | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ⭐98.5k | — | — | ⬇️ 落后 15 | MCP 服务器总表（punkpeye），我这份是纯副本，看内容请回上游 |
 | [awesome-china-mcp](https://github.com/yehuoshun/awesome-china-mcp) | [zackchewa/awesome-china-mcp](https://github.com/zackchewa/awesome-china-mcp) ⭐181 | — | — | ✅ 同步 | 国内 App 的 MCP 服务索引 |
 
 ### ☕ Java 生态
@@ -58,7 +58,7 @@ MyBatis 周边与中间件扩展。
 | 仓库 | 上游 | 语言 | 我的改动 | 状态 | 说明 |
 | --- | --- | --- | --- | --- | --- |
 | [mybatis-plus-join](https://github.com/yehuoshun/mybatis-plus-join) | [bobo667/mybatis-plus-join](https://github.com/bobo667/mybatis-plus-join) ⭐147 | Java | — | ✅ 同步 | MyBatis-Plus 多表联查插件，完全照 MP 的用法写 |
-| [MongoPlus](https://github.com/yehuoshun/MongoPlus) | [anwenmp/MongoPlus](https://github.com/anwenmp/MongoPlus) ⭐75 | Java | — | ✅ 同步 | 把 MyBatis-Plus 的写法搬到 MongoDB 上；fork 过来只为跟踪上游 |
+| [MongoPlus](https://github.com/yehuoshun/MongoPlus) | [anwenmp/MongoPlus](https://github.com/anwenmp/MongoPlus) ⭐75 | Java | — | ⬇️ 落后 113 | 把 MyBatis-Plus 的写法搬到 MongoDB 上；fork 过来只为跟踪上游 |
 
 ### 🎮 游戏工具 / MOD / 资源
 
@@ -72,9 +72,10 @@ MyBatis 周边与中间件扩展。
 
 ## 值得回头看
 
-### ⬇️ 该同步了（1）
+### ⬇️ 该同步了（2）
 
-- **[awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers)** — 落后上游 13 个提交
+- **[MongoPlus](https://github.com/yehuoshun/MongoPlus)** — 落后上游 113 个提交
+- **[awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers)** — 落后上游 15 个提交
 
 ### ✏️ 有本地改动（2）
 
