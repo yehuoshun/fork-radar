@@ -11,7 +11,7 @@
 
 [![update](https://github.com/yehuoshun/fork-radar/actions/workflows/update.yml/badge.svg)](https://github.com/yehuoshun/fork-radar/actions/workflows/update.yml)
 
-数据快照：2026-11-26 14:58 (UTC+8)
+数据快照：2026-11-27 14:52 (UTC+8)
 
 </div>
 
@@ -48,8 +48,8 @@
 
 | 仓库 | 上游 | 语言 | 我的改动 | 状态 | 说明 |
 | --- | --- | --- | --- | --- | --- |
-| [awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers) | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ⭐98.5k | — | — | ⬇️ 落后 17 | MCP 服务器总表（punkpeye），我这份是纯副本，看内容请回上游 |
-| [awesome-china-mcp](https://github.com/yehuoshun/awesome-china-mcp) | [zackchewa/awesome-china-mcp](https://github.com/zackchewa/awesome-china-mcp) ⭐183 | — | — | ✅ 同步 | 国内 App 的 MCP 服务索引 |
+| [awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers) | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) ⭐98.6k | — | — | ⬇️ 落后 214 | MCP 服务器总表（punkpeye），我这份是纯副本，看内容请回上游 |
+| [awesome-china-mcp](https://github.com/yehuoshun/awesome-china-mcp) | [zackchewa/awesome-china-mcp](https://github.com/zackchewa/awesome-china-mcp) ⭐186 | — | — | ✅ 同步 | 国内 App 的 MCP 服务索引 |
 
 ### ☕ Java 生态
 
@@ -74,8 +74,8 @@ MyBatis 周边与中间件扩展。
 
 ### ⬇️ 该同步了（2）
 
+- **[awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers)** — 落后上游 214 个提交
 - **[MongoPlus](https://github.com/yehuoshun/MongoPlus)** — 落后上游 113 个提交
-- **[awesome-mcp-servers](https://github.com/yehuoshun/awesome-mcp-servers)** — 落后上游 17 个提交
 
 ### ✏️ 有本地改动（2）
 
